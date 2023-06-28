@@ -1,9 +1,12 @@
 import React from "react";
 import Song from "./SongUserPlaylist";
+import Navbar from "./Navbar";
+
 
 function UserPlaylist (){
     return(
         <>
+     <Navbar/>
         <div className="bg-black text-gray-300 min-h-screen p-10">
   
 
@@ -15,7 +18,8 @@ function UserPlaylist (){
       <p className="text-gray-400 text-sm">Created by <a href="#" className="text-blue-50 font-bold">User name</a> - 50 songs, 3 hr 2 min</p>
 
       <p className="mt-10 font-bold">Description:</p>
-      <p className="my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quia architecto sunt animi ex officia, molestiae dignissimos doloremque dolore autem, in enim esse distinctio at? Laboriosam autem ipsum iste error.</p>
+      <p className="my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      Ea quia architecto sunt animi ex officia, molestiae dignissimos doloremque dolore autem, in enim esse distinctio at? Laboriosam autem ipsum iste error.</p>
     </div>
 
   <div className="mt-10">

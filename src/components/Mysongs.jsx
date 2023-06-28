@@ -13,7 +13,7 @@ function AllSongs (){
 
     <div className="flex flex-col justify-center">
      
-      <h1 className="mt-0 mb-2 text-white text-4xl">All Songs</h1>
+      <h1 className="mt-0 mb-2 text-white text-4xl">My Songs</h1>
 
     </div>
 
